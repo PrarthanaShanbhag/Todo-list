@@ -6,7 +6,9 @@
   box-sizing: border-box;
   font-family: "Source Sans Pro", sans-serif;
 }
-
+body{
+  background: #060822;
+}
 html {
   font-size: 62.5%;
 }
@@ -214,4 +216,21 @@ input:active:focus {
   letter-spacing: 0.05em;
   -webkit-transform: translateY(0) scale(1, 1);
   transform: translateY(0) scale(1, 1);
+}
+
+
+@media screen and (max-width: 450px){
+
+ 
+  
+  .main-div .child-div .addItems input{
+    min-width: 25rem;
+    
+
+  }
+  
+  .main-div .child-div .showItems .eachItem{
+    min-width: 25rem;
+  }
+
 }
